@@ -4,7 +4,7 @@ This project simulates an RF control interface using gRPC. It includes both a cl
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 rfcontrol/
@@ -26,12 +26,12 @@ rfcontrol/
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📡 **Set RF parameters**: frequency, gain, and device ID
-- 🔁 **gRPC Client-Server architecture**
-- 🧪 **Mocked hardware API** for demo/testing without physical devices
-- 📚 **Auto-generated documentation** using `pdoc`
+-  **Set RF parameters**: frequency, gain, and device ID
+-  **gRPC Client-Server architecture**
+-  **Mocked hardware API** for demo/testing without physical devices
+-  **Auto-generated documentation** using `pdoc`
 
 ---
 
@@ -63,7 +63,7 @@ python client/client.py
 
 ---
 
-## 📜 Example Interaction
+##  Example Interaction
 
 **Client Input:**
 ```
@@ -85,13 +85,13 @@ Response: RF parameters set successfully. | Success: True
 
 ---
 
-## 📘 Hardware Integration
+##  Hardware Integration
 
 This implementation does **not** require any RF hardware. All hardware-related functionality is mocked using `print()` statements to simulate configuration actions. This allows full testing and demonstration in a purely software environment.
 
 ---
 
-## 🧾 Documentation
+##  Documentation
 
 Documentation is auto-generated using [`pdoc`](https://pdoc.dev).
 
@@ -101,13 +101,13 @@ run the following command to read the documentation:
 start docs\index.html
 ```
 
-## 📄 License
+##  License
 
 This project is provided as part of an academic assignment and is intended for educational use.
 
 ---
 
-## 🙋‍♀️ Contact
+##  Contact
 
 For questions, contact:\
 Wasi Ahmad\
